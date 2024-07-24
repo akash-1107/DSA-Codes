@@ -1,0 +1,14 @@
+1.Basics -
+    1.Arrow Function ✅
+    2.Map Filter Reduce for-Each ✅
+    3.Async/Await ✅
+    4.Classes of Bootstrap(Total 15) ✅
+    5.React Hooks - 1.Use State ✅
+                    2.Use Effect ✅ 
+    6.Making Own API
+
+2.Public -
+    1.Index.html(Bootstrap css and js) ✅
+3.Infinite scroll -  
+    1.Basic ✅
+    2.using package ✅

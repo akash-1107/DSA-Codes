@@ -1,0 +1,5 @@
+CPU Utilization: The percentage of time the CPU spends actively executing tasks compared to the total time available. Higher utilization indicates efficient CPU usage.
+
+Throughput: The number of tasks completed in a unit time. Higher throughput means the system can process tasks more effectively.
+
+Response Time: The total time taken for a task to receive a response after initiation. Lower response time indicates faster system response to user requests.

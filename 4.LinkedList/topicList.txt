@@ -1,0 +1,26 @@
+1.Introduction - 
+        1.Insert at given position k ✅
+        2.Traversal,search and count (only linear search) ✅ 
+2.Deletion -
+        1.Delete Node from given position k ✅ 
+        2.Delete Nth Node from back ✅
+        3.Delete Middle Node ✅ 
+3.Find Middle Node in a Linked List ✅
+4.Reverse - 
+        1.Iterative ✅
+        2.Recursive ✅
+        3.In a group of k ✅
+5.Loops -  
+        1.Detect Loop ✅
+        2.Start point and length of Loop ✅
+6.Check Palindrome in Linked List ✅
+7.Sort - 
+        1.Sort Linked List ✅
+        2.sort 0,1,2 ✅
+8.Two Linked Lists -
+        1.Merge two sorted(merge sort method) ✅(same as 7.1)
+        2.Intersection point of 2 LL ✅
+        3.Add 2 numbers in LL  ✅
+09.Rotate a Linked List ✅
+10.Flattening a Linked List ✅
+11.Clone a Linked List with Random and next pointer ✅

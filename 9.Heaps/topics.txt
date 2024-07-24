@@ -1,0 +1,33 @@
+1.Introduction - 
+  1.Build Heap - ✅ O(N)
+                1.Insertion ✅ O(log N)  (bubbling up wala chij)
+                2.Deletion  ✅ O(log N)
+  2.Heapify ✅ O(log N)
+  3.Heap Sort ✅ O(Nlog N)
+  4.Check Array is min-Heap or not ✅ O(N)
+  5.Convert Min Heap to Max Heap ✅ O(N)
+
+2.Basic Priority Queue / Sorting - 
+  1.Kth Smallest / largest Element ✅ TC = O(nlog k) , sc = O(K)
+  2.Min Cost of N Ropes ✅ TC = O(nlog n) , sc = O(n)
+  3.Task Schedular ✅ TC = O(n) , sc = O(n)
+  4.Replace Each With Rank ✅ TC = O(nlog n) , sc = O(n)
+  5.Design Twitter ✅ TC = O(n) , sc = O(n*n)
+
+3.Tree Types - 
+  1.Check Tree is Heap or not ✅ TC = O(n) , sc = O(n) (basically traversal)
+  2.Make BST to Min Heap ✅ TC = O(n) , sc = O(n) (basically traversal 2 baar)
+
+4.Merging - 
+  1.Merge 2 Max - Heaps ✅  TC = O( N + M ) ,  SC = O( N + M )
+  2.Merge K-Sorted Arrays ✅  TC = O((N * K) * log(K))  ,  SC = O(N * K)
+  3.Meger K-Sorted Lists ✅ T.C. = O(KLog(k))  S.C. = O(k)
+
+5.Stream - 
+  1.Median in a Stream of N Elements ✅
+  2.Kth Largest in a Stream of N Elements ✅
+
+6.Kth Largest Sum Subarray ✅ TC = O(N ^ 2 * log(K))   SC = O(K)
+
+7.Smallest Range in k Sorted List to Cover Atleast 1 Element   (pending)
+

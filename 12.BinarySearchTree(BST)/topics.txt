@@ -1,0 +1,19 @@
+1.Searching  - 
+        1.Searching in BST ✅ -->logn , 1
+        2.Min / Max in BST ✅ -->logn , 1
+        3.Insert in BST ✅ -->logn , 1 (search krte waqt hi krna hoga kaam)
+        4.Delete in BST ✅ -->logn , 1
+        5.kth largest ✅ --> 2*n , 1(becoz morris)
+        6.kth smallest ✅ --> n , 1 (becoz morris)
+2.Inorder -
+        1.successor / ceil ✅ -->logn , 1
+        2.predessor / floor ✅ -->logn , 1
+3.check if BT is BST - 
+        1. check BT is BST ✅ -->N,H (min-max value associated to each node)
+        2. largest BST in BT ✅      (min-max value associated to each node)
+4.Iterator in BST -
+        1.Iterator function - next and hashnext , before and hashbefore ✅ -->N , N
+        2.Two Sum IV ✅ -->N , N
+5.LCA in BST ✅ -->logn , H  (half subtree saaf har baar)
+6.Construct BST using Preorder ✅ -->N , H (basic recursive traversal)
+7.Recover BST (first , mid , end pointer) ✅ -->N , H

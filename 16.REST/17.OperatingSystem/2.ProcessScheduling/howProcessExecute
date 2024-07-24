@@ -1,0 +1,27 @@
+When a process is executed inside memory, several steps are involved in the process's lifecycle, from its creation to its termination. Here's a high-level overview of how a process gets executed inside memory:
+
+1. Process Creation:
+The process creation begins when a user initiates a program or application or when an operating system creates a new process in response to an event. The operating system allocates a new process control block (PCB) to manage the process's information, such as process ID, memory requirements, and execution state.
+
+2. Memory Allocation:
+The operating system allocates memory to the process to store its code, data, stack, and heap segments. The code segment contains the executable instructions, the data segment holds the global and static variables, the stack segment manages function calls and local variables, and the heap segment manages dynamically allocated memory.
+
+3. Loading Program:
+The program's executable code is loaded into the process's memory space from the executable file stored on disk. The loader performs this task, and the operating system ensures that the program's code and data are correctly mapped into the allocated memory space.
+
+4. Program Counter (PC) Initialization:
+The program counter (PC) is initialized with the memory address of the first instruction to be executed. The PC keeps track of the next instruction to be fetched and executed.
+
+5. Execution:
+The CPU executes instructions fetched from the memory pointed by the PC. The process progresses through its code, performing operations, calculations, and data manipulations as per the program's logic.
+
+6. Context Switching:
+When the CPU switches from one process to another, a context switch occurs. The current process's execution state, including its registers and program counter, is saved in its PCB, and the CPU loads the execution state of the next process to be executed.
+
+7. Memory Protection:
+Modern operating systems enforce memory protection mechanisms to prevent one process from accessing or modifying the memory used by another process. This ensures process isolation and security.
+
+8. Termination:
+When a process completes its execution or is terminated by the operating system, the resources associated with the process, such as memory, files, and open connections, are released. The process control block is also freed.
+
+The execution of a process inside memory involves a complex interplay between the CPU, memory management unit, and the operating system to ensure proper execution, resource management, and isolation of processes to create a secure and efficient multitasking environment.

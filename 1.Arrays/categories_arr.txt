@@ -1,0 +1,24 @@
+/*
+1. SUM --> 2SUM , 3SUM , 4SUM  ✅ 
+2. MAJORITY ELEMENT--> n/2,n/3 ✅
+3. Repeat and Missing Number--> 1.all two and one one ✅
+                                2.n+1 integers $[1,n] ✅
+                                3.First Missing +ve ✅
+4.subarray and k-->  1.longest subarray sum equals k (both +ve and -ves)✅(DOUBT)
+                     2.(kadane's and special cases) ✅
+                     3.subarray count div by k ✅
+                     4.subarray sum equals k  ✅
+                     5.given xor ✅
+                     6. maximum product subarray ✅
+5.merge arrays--> 1.Merge two sorted arrays without extra space ✅
+                  2.Merge Overlapping Subintervals ✅
+                  3.Inversion of Array (Pre-req: Merge Sort) ✅
+                  4.Quick Sort ✅
+6.2D matrix --> 2.Rotate matrix by 90 cw and acw ✅
+7.stock and buy --> 1.one(rest DP) ✅
+                    2.two ✅
+8.Number Sort-->1.array of 0,1  ✅
+                2.array of 0,1,2 ✅
+9.Next Permutation ✅
+10.Array Cyclic Rotation ✅
+*/

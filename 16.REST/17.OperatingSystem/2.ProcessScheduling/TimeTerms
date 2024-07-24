@@ -1,0 +1,9 @@
+Givens -
+1.Arrival Time = ready queue me aa gya
+2.Burst Time = running queue me aane ke baad bina interuption ke kitta time lagega
+Find -
+3.Completion Time = jb process complete ho gya real me (find using GANTT chart) (ye ek number (time stamp) hai bss)
+4.TAT(Turn Around Time) = (CT - AT)(pura time to complete after entering in ready queue including waiting time)
+5.WT(Waiting Time) = (TAT - BT) (time including waiting in ready queue- time excluding waiting)
+
+6.RT(Response Time) = jb proces ko actual me cpu mila(running queue)(using GANTT) - AT

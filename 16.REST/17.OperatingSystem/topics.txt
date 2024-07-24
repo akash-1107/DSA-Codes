@@ -1,0 +1,141 @@
+1.What are a socket, kernel, and monolithic kernel?
+
+2.Introduction to OS -
+    1.Main Purpose of OS ✅
+    2.OS in Layman Terms ✅
+    3.Types - 1.Batch OS ✅
+              2.Multiprogramming OS ✅
+              3.Multitasking OS ✅
+              4.Time Sharing OS ✅
+              5.Distributed OS ✅
+              6.Real Time OS ✅
+    4.Diff -  1.Virtualization vs Containerization (OR Virtual machine vs Docker) ❌
+              2.Program vs Process ✅
+              3.Process vs Thread ✅
+              4.user mode vs kernel mode ✅
+              5.User-level thread vs kernel level thread ✅
+    6.Architectures Diff -
+              1.multi-threading ✅
+              2.multi-processing ✅
+              3.multiprogramming ✅
+              4.multi-tasking ✅
+              5.Microservices ❌
+
+3.Process Scheduling - 
+  1.Scheduling Queue ✅
+  2.Pre-Emptive vs Non-Preemptive Scheduling ✅
+  3.Times Terms - 1.Arrival Time ✅
+                  2.Complete Time ✅ 
+                  3.Burst Time ✅
+                  4.Turn Around Time ✅
+                  5.Waiting Time ✅
+                  6.Response Time ✅
+  4.Scheduling Algos - 1.FCFS (non pre) ✅
+                       2.SJF (non pre) ✅
+                       3.SRTF (pre) ✅
+                       4.LRTF (pre) ✅
+                       5.ROUND ROBIN(pre) ✅
+                       6.Priority Scheduling (both possible) ✅
+  5.Special Critical Terms - 1.CPU Utilization ✅
+                             2.Throghput ✅
+                             3.Response Time ✅
+  6.Explain How does a process gets executed inside memory ✅
+  7.Optimal Number of threads for a process ❌
+  8.terms(context of scheduling) - 1.Ageing  ✅
+                                   2.Starvation  ✅
+                                   3.DeadLock  ✅
+
+4.Process Synchronization -
+  1.Race Condition (pre-emption and global variables sharing)
+  2.Critical Section(shared varibale present) , non - Critical
+  3.Mutex (to allow only 1 process to enter critical section at a time)
+  4.Semaphore 
+  5.If Alleast 1  Write Operation then Only Need of Critical Section.
+  6.Goals of Synchronization -1.Mutual Exclusion
+                              2.Progress -(jisko critical section me nhi jana h should not block jisko jana h)
+                              (bathroom example jisko jana h vhi compete kre bss)
+                              3.Bounded Waiting (fairness aisa nhi ki ek ko pura mil rha ek ko zero mil rha wait hi kr rhe bechara)
+                              4.Performance -locking (Sync) mechanism fast hona chahiye
+                              (software method) - 1.Peterson solution
+                              (harware method is preffered) - 2.(TSL)(Test and Set Lock )
+                       
+  7.How to Achieve (dbms b me l de diya ms ulta ho gya == DLSM) -
+                              1.Disabling Interrupts(basically process jb critical section me hai tb vo bol dega abhi Interrupt na kro -->dikkat in multiprocessor system)
+                              ex -(bathroom me gya bol diya interrupt na kro or koi dekhne wala nhi ki ye galat kaam h)
+                              2.locks (or Mutex) - acquire lock and release it
+                              3.Semaphore - wait when enter signal when leave
+                              4.Moniters - common variables and fxn to change it in same java class
+
+
+  7.2.Locks - (software method) - 1.Peterson solution
+            (harware method is preffered) - 2.(TSL)(Test and Set Lock )
+
+  7.3.Counting Semaphore - (basically multiple instances of critical sections h)
+      1.basically -->struct Semaphore{int cnt ; Queue <int> q}
+      2.basically when multiple instance of same resources(like 3 washrooms i cant apply locking for all 3 collectively)
+      3.so i will have a count (0 or +ve mtlb utna instance available) (-ve mtlb utta process waiting in Queue)
+      4.wait = pehle cnt-- agr -ve ni hua toh resouce use agr -ve toh wait kro(uska PCB store kr lega)
+      5.signal = pehle cnt++ agr >= 0 mtlb koi process hai queue me wait krta hua usko wake up kr denge
+    
+  In the context of operating systems, "atomic" refers to an operation that appears to occur instantaneously and indivisibly, as if it were a single, indivisible step, without being interrupted or interfered with by other concurrent processes or threads. 
+
+  both wait and signal should be atomic i.e bich me interrupt nhi krna hai usko (Done by OS)
+
+  7.3.2 Binary Semaphore - (As per need)
+      1.basically -->struct Semaphore{bool val ; Queue <process> q}
+      3.so i will have a bool val 
+      4.wait = agr s.val == true toh lelo jagah and s.val==false krdo else usko q me daalke wait krwao
+      5.signal = agr q empty hai toh s.val = true krdo ki koi aake lelo varna queue me log h ek process ko utha do
+
+  8.Priority Inversion (Problem)-
+
+    1.Basically ek Low Priority and low Priority wala apna critical section execute kr rha hai tb High Priority wala aaya jo share kr rha critical section low wale se
+    2.But critical section me hai toh preempt nhi hoga basically high wala low ka wit kr rha hai
+    3.Tbhi ek Medium Priority ka process aa gya jiska critical section alag hai pura toh low wala preempt hoke medium ko mil jaega
+    (basically yhi h Priority Inversion hai high ke jagah medium ko mil gya)
+    4.To avoid this we use Priority Inheritance
+
+  5.DeadLock - (infinite waiting)
+  1.Conditions for DeadLock -
+     1.Mutual Exclusion of resouces (like ek time pe ek hi process printer ko access kr skta)
+     2.Hold and Wait (holding 1 resouce and waiting for some other resouce)
+     3.No Preemption (ek process ek resouce use krne ke bich me cpu usse vo resouce nhi le skta)
+     4.Circular wait (RAG)
+
+  2.RAG = Resource Allocation Graph  (DCG h) 
+    1.processes (by circles)
+    2.Resources (by Rectangles) (agr multiple instance of resources toh rectangle me (dot ,dot))
+    3.Directed edge pointing to resouce mtlb(uska intezar)
+    3.Directed edge pointing to process mtlb(vo h mere pass)
+
+  3.DeadLock Handling Technique  - (PARI)
+    1.DeadLock Prevention (4 conditons me se ek ko v false krwa do)
+    2.DeadLock Avoiding (Bankers algo jo DeadLock naa de usi ko access do)
+    3.Detection and Reovery (system me jaha ho detect krke remove krdo)
+    4.Ignore the DeadLock (basically windows me yhi krte ki bohot rare DeadLock toh manual reboots)
+
+  3.5.1.DeadLock prevention - 
+     1.Mutual Exclusion of resouces (spooler tech ek queue banake store krte jayenge jb khali de denge) (prblm - queue full )
+     2.Hold and Wait (1.holded all resources pehle chorega phir naya le paega OR 2.Pehle hi bata do kon kon resouce lega)(not practical)
+     3.No Preemption (jb chahe cpu cheen le resource)(not practical)
+     4.Circular wait (RAG) (agr 3 liya hua h toh 1,2 nhi le skta)
+
+  3.5.2.DeadLock Avoiding - (Banker's Algorithm) - 
+    Assumptions - 1.(pehle se bata do max kitna resource allocate krega each process)
+                  2.safe state diagram me serially har process pehle execute phir apna resources release krega tham next process execute hoga
+    Given -1.Hmko milega total available instaces of all resouce (suppose R1 and R2)
+           2.And har Process ka Allocated instaces and Max need of instances ka data
+           3.phir ek new request milega tmko check krna ki agr hm isssko dde diye toh safe state diagram ho payega ki nhi
+
+    process - 1.phir hm allocated me add krdenge jo mang rha phir safe state generate krenge(agr all process aa paye safe sequence me tb shi kr skte allocate)
+               2.hm need banayege (maxNeed-allocated) phir initial available wala process krenge phir vo apna resources release krdega
+               3.so current available badh jayega ab phir jo kam vo kr skte
+               4.now ab agr iss tarah sara process ho paya toh sb shi hai
+  3.5.3.DeadLock detection - 
+       1.single instace - RAG
+       2.Multiple instace - Banker's algo
+
+5.Memory Management - 
+
+
+  

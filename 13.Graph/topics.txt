@@ -1,0 +1,57 @@
+//Graph me O(N) SC hai toh extra vector lena never affects
+
+1.Clone a Graph ❌
+
+2.Traversals-
+    1.BFS            ✅ --> TC = O(N) SC = O(N)
+    2.0/1 matrix(BFS)✅ --> TC = O(N^2) SC = O(N^2)
+    3.DFS            ✅ --> TC = O(N) SC = O(N)
+    4.Surrounded Regions(DFS) ✅ --> TC = O(N^2) SC = O(N^2)
+    5.Number of Enclaves(Multisrc) ✅ --> TC = O(N^2) SC = O(N^2) similar to 4
+    6.Number of Distinct Islands(Multisrc DFS) ✅ --> TC = O(N^2) SC = O(N^2)
+
+3.Connected Components-
+    1.BFS ✅ --> TC = O(N) SC = O(N)
+    2.DFS ✅ --> TC = O(N) SC = O(N)
+
+4. Cycle Detection-
+    1.Undirected Graph BFS ✅ --> TC = O(N) SC = O(N)
+    2.Undirected Graph DFS ✅ --> TC = O(N) SC = O(N)
+    3.Directed Graph DFS   ✅ --> TC = O(N) SC = O(N) extra dfsVis arr
+
+5.Bipartite graph-
+    1.Using DFS ✅ --> TC = O(N) SC = O(N)
+    2.Using BFS ✅ --> TC = O(N) SC = O(N)
+
+6.Topological sorting-
+    1.Using DFS ✅ --> TC = O(N) SC = O(N)
+    2.Using BFS (Kahns Algorithm) OR Cycle Detection IN Directed Graph BFS ✅ --> TC = O(N) SC = O(N)
+    3.Course Schedule -I , II ✅ --> TC = O(N) SC = O(N)
+    4.Alien Dictionary ✅ --> TC = O(N^2) SC = O(N)
+
+7.Shortest Path-
+    1.Undirected Graph With Unit Weights-->(BFS)(Dijkstra work but better TC)(Queue) ✅--> TC = O(N) SC = O(N)
+    2.Word Ladder - I ✅--> TC = O(N) SC = O(N)
+    3.Word Ladder - II ❌
+    4.IN Directed Acyclic Graph-->(Topo sort)(stack)(DFS)(Dijkstra work but better TC) ✅--> TC = O(N) SC = O(N)
+    5.Dijkstra's Algorithm (Directed and Undirected)(fails at -ve edge weights)(priority Queue)(bfs type hi)✅--> TC = O(Elogv) SC = O(N)
+    6.In Binary Maze (Queue)
+    7.Path with Minimum Effort / Cost
+    8.Bellman Ford Algorithm (single src) (-ve edge work but -ve cycle detect) ✅--> TC = O(N*E) SC = O(N)
+    9.Floyd Warshall Algorithm (all pair Shortest path) (-ve cycle me can detect)✅--> TC = O(N^3) SC = O(N^2)
+   10.City with least cnt of neighbours in a threshold distance
+
+8.MST - 
+    1.Prims Algorithm ✅--> TC = O( ElogE) SC = O(E+V)                      
+    2.Kruskals Algorithm ✅--> TC = O(V+E) SC = O(E+V) 
+
+9.DSU -
+    1.DSU union by rank 
+    2.DSU union by size ✅--> TC = O( (4 alpha) almost constant) SC = O(V)     
+    3.Number of operations to make network Connected
+
+10.Bridges in a graph ✅
+
+11.Articulation points in a graph ✅
+
+12.Strongly Connected Components (KosaRaju Algorithm) ✅  TC = O(V+E) SC = O(V)

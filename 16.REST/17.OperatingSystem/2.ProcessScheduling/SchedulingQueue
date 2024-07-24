@@ -1,0 +1,12 @@
+There are different types of scheduling queues, each serving a specific purpose in process/thread management. Some common types of scheduling queues include:
+
+1.Ready Queue: This queue holds all the processes/threads that are ready to be executed by the CPU. Processes/threads in this queue are in a state where they are waiting for their turn to run, but they are not currently running. The CPU scheduler selects processes/threads from this queue for execution based on the scheduling algorithm in use.
+
+2.Running Queue: This queue contains the process/thread that is currently being executed by the CPU. As the CPU can only execute one process/thread at a time, this queue typically holds just one item.
+
+3.Waiting Queue: Processes/threads that are waiting for a specific event to occur, such as the completion of an I/O operation, are placed in the waiting queue. Once the event occurs, the processes/threads are moved back to the ready queue to be considered for execution.
+
+4.Blocked Queue: Similar to the waiting queue, the blocked queue holds processes/threads that are waiting for a specific event. However, processes/threads in the blocked queue cannot be considered for execution until the event they are waiting for is signaled by some external factor.
+
+    
+Schedulers use these queues to determine which process/thread to execute next based on scheduling algorithms like First-Come-First-Serve (FCFS), Round-Robin, Priority Scheduling, etc. The scheduler periodically selects a process/thread from the ready queue and moves it to the running queue, allowing it to use the CPU's execution time. Once the process/thread's time slice is over (in the case of preemptive scheduling algorithms), it is moved back to the ready queue to await its next turn.

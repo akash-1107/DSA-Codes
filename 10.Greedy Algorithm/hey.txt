@@ -1,0 +1,6 @@
+An Online Food ordering application using the MERN stack
+•Implemented a cart functionality to add items, review and modify added
+items.
+ Allowed users to sign up and create account .
+• Allowed only authorized users to add items to cart and place order.
+• Utilized the Geolocation API to automatically detect and display the user’s approximate location

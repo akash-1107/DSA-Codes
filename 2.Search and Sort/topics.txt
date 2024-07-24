@@ -1,0 +1,44 @@
+1.Root - 
+        1. sqr root -->O(log n)✅
+        2. Nth root -->O(log n)✅
+
+2.Median - 
+        1.kth element of 2 sorted array ✅
+        2.Median of Two sorted array ✅
+
+3.RotatedSortedArray -
+        1.search in RotatedSortedArray -->O(log n) ✅
+        2.search in RotatedSortedArray(only 2 distinct + dupli) -->O(log n)✅
+        3.minimum element in RotatedSortedArray -->O(log n) ✅
+
+4.Find the element - 
+        1.That appears once in sorted rest 2 -->O(log n) ✅
+        2.Peak element(every array has it)(non sorted me binary search) ✅
+        3.Implemenation of upper and lower bound STL 
+
+5.2D Matrx - 
+        1.gfg wala -->O(n+m) ✅
+        2.leetcode wala -->O(log(m*n)) ✅
+        3.max Consequtive Ones row wise sorted--> O(n+m) ✅
+
+// BinarySearch on Ans - 
+
+6.Allocaton - (kisi v bande ko jo max mil rha usko minimize krna hai)
+        1.Painter's Partition
+        2.Minimum Number of Days to Make m Bouquets (max days ko) ✅ 
+        3.Split array in n people   (max sum ko minimize)
+        4.Book allocation in n people (max pages to read) ✅
+        5.Capacity to ship package within d days (max days ko)
+        6.Koko eating bananas (max eating speed ko) ✅
+
+7.Minimum dist do ka ko maximize krna hai -
+        1.Aggressive Cows ✅
+        2.Magnetic Force Between Two Balls ✅
+        3.Minimize Max distance b/w gas stations ✅
+
+        
+
+
+
+
+

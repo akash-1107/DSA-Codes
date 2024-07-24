@@ -1,0 +1,17 @@
+
+1.Interface b/w User and Hardware(CPU , I/O devices , RAM)
+2.Resource Management: basically kon sa harware kisko allocate krna hai and vapas lena hai so NO interference 
+b/w each other
+
+3.Process Management : The OS oversees the execution of multiple processes or tasks simultaneously. Itschedules processes, switches between them, and provides a fair share of the CPU time to each process,enabling multitasking and ensuring responsiveness. (basically deal with Parallel Processes)
+
+4.Storage Management(storing Permanent data on hard disk) - basically does it using File System
+File Management: The operating system provides a hierarchical structure for organizing files and directorieson storage devices. 
+
+5.Implement memory management to optimize RAM usage (because RAM is limited so allocate phir delocate krnahoga taki sbko RAM mil ske)
+
+6.Privacy - 1.provide authentication(verified user hi login kr pata h windows me)
+                2.provide sequrity b/w process also if (p1 Interfare in p2 ) p1 will be blocked
+    
+
+### Throughput - number of tasks executed per unit time

@@ -1,0 +1,16 @@
+Example-
+Imagine a computer as a big office with many employees (applications) working on various tasks. Now, the operating system (OS) is like the manager of that office.
+
+1.Resources
+The manager (OS) is responsible for making sure that all employees (applications) can work smoothly without getting in each other's way. It allocates tasks (resources like CPU and memory) to each employee and ensures that everyone gets a fair share of the office resources.
+
+2.Process allocation dealloction
+The manager also makes sure that the office equipment (hardware) is used efficiently and that nothing gets wasted. If someone is not using their desk (RAM) or has completed their work, the manager will free up that space for others to use.
+
+3.interface
+Additionally, the manager provides a front desk (user interface) where employees can interact with the office and request resources. It translates the employees' requests into actions that the office equipment can understand and execute.
+
+4.sequirity
+Furthermore, the manager is responsible for the security of the office. It checks the ID cards (user authentication) of employees to ensure only authorized personnel can enter and access certain areas (files and folders).
+
+In summary, the operating system is like the manager of a computer, responsible for managing resources, handling tasks, providing a way for users to interact with the computer, and ensuring everything runs smoothly and securely in the digital world.

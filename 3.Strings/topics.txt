@@ -1,0 +1,25 @@
+1.String Matching Algos - 
+  1.Rabin Carp
+  2.KMP / pi array
+
+2.Reverse - 
+  1.Reverse Words in a given String / palindrome check
+
+3.Roman to Integer and Reverse
+
+4.Special Strings -
+  1.Rotation of each other
+  2.Anagrams
+  3.Isomorphic String
+  4.Sum Of beauty of string
+
+5.Paranthesis -
+  1.Remove Outermost Paranthesis
+  2.Maximum Nesting Depth of Paranthesis
+  3.Minimum number of bracket reversals needed to make an expression balanced
+
+6.Largest/Longest in a string - 
+  1.Largest odd number in a string
+  2.Longest Common Prefix
+  3.Longest Palindromic Substring[Do it without DP]
+  4.Shortest Palindrome

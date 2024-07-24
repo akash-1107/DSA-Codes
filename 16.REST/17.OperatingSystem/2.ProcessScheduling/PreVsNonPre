@@ -1,0 +1,28 @@
+1.Preemptive Scheduling:
+In preemptive scheduling, the CPU scheduler can interrupt a running process/thread and force it to give up the CPU before its time slice or quantum is completed. This means that the CPU can be taken away from a running process even if it is still in the middle of its execution. The scheduler then selects another process/thread from the ready queue to run. Preemptive scheduling allows for better control over process prioritization and can ensure that critical tasks get immediate attention, even if they are waiting in the ready queue.
+
+Advantages of preemptive scheduling:
+Higher priority processes can run immediately when needed.
+It helps prevent long delays caused by a single process hogging the CPU.
+
+Disadvantages of preemptive scheduling:
+Frequent context switches can introduce some overhead and affect overall system performance.
+It requires additional mechanisms to handle shared resources and synchronization between processes.
+
+Common preemptive scheduling algorithms include
+Round-Robin, Priority Scheduling with preemption, and Multilevel Queue Scheduling with time slicing.
+
+
+2.Non-preemptive Scheduling:
+In non-preemptive scheduling, once a process/thread starts executing, it will continue to run until it completes its execution or voluntarily gives up the CPU by waiting for an event (e.g., I/O operation) to complete. The CPU is not forcibly taken away from a running process until it finishes its job or voluntarily relinquishes control. Non-preemptive scheduling is simpler to implement as it does not require frequent context switches, but it may lead to longer response times for higher-priority tasks if they are waiting for the currently running process to finish.
+
+Advantages of non-preemptive scheduling:
+Simpler to implement and manage.
+Avoids overhead caused by frequent context switches.
+
+Disadvantages of non-preemptive scheduling:
+It may lead to longer response times for higher-priority tasks if lower-priority tasks are running for a long time.
+Critical tasks may have to wait longer in the ready queue until the current process voluntarily releases the CPU.
+Common non-preemptive scheduling algorithms include First-Come-First-Serve (FCFS), Shortest Job Next (SJN), and Priority Scheduling without preemption.
+
+The choice between preemptive and non-preemptive scheduling depends on the specific requirements of the system and the nature of the processes/threads running on it. Some systems may use a combination of both scheduling approaches to achieve a balance between fairness, responsiveness, and overall system performance.

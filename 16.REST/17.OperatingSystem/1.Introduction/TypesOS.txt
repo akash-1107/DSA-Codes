@@ -1,0 +1,29 @@
+1.Batch OS:
+Example: Early mainframe computers like IBM 7090.
+Explanation: Batch operating systems are designed to process large volumes of similar jobs without human intervention. Users would submit their jobs in the form of punch cards or magnetic tapes, and the operating system would execute them one after the other in a batch. There was no direct interaction between the user and the system during job execution.
+
+2.Multiprogramming OS:
+Example: Unix-based operating systems, such as Linux and macOS.
+Explanation: Multiprogramming OS allows multiple programs to run simultaneously. It shares the CPU among multiple processes, and when one process is waiting for input/output or other tasks, the CPU is immediately allocated to another process, maximizing CPU utilization and overall system efficiency.
+(
+basically RAM me jada se jada process lana is motive 
+Non - Preemptive  hai mtlb - 
+hm sara process ko line se pura complete execute krenge unless vo khud bole I/O krne jana h
+tb jane dega or dusra ko ready state me laa dega
+)
+
+3.Multitasking OS:
+Example: Modern desktop operating systems like Windows and macOS.
+Explanation: Multitasking OS enables users to run multiple applications at the same time and switch between them seamlessly. The operating system allocates time slices (small time intervals) to each application, giving the illusion that they are running simultaneously, even though only one application is executing at a given moment.
+(
+  basically har process ko particular time diye h usme ho gya toh thk h nhi toh baad me krenge i.e Preemptive 
+  hai isse response time badh jada har process ko jldi response milta h
+)
+
+5.Distributed OS:
+Example: Distributed operating systems like Google's Chrome OS.
+Explanation: Distributed OS runs on multiple interconnected computers and enables them to work together as a single system. The distributed OS coordinates communication and resource sharing among the computers in the network, allowing them to function cohesively.
+
+6.Real-Time OS:
+Example: Embedded systems like traffic control systems, industrial automation systems.
+Explanation: Real-Time OS is designed for applications that require immediate and predictable responses to external events. It prioritizes time-sensitive tasks and ensures that they are executed with minimum delay. Real-time OS is commonly used in critical systems where timely responses are essential for safety and functionality.

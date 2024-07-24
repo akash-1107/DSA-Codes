@@ -1,0 +1,55 @@
+1.Traversals-
+      1.Boundary ✅
+      2.InPrePost ✅
+      3.LevelSpiral ✅
+      4.MorrisInPre ✅
+      5.Vertical ✅
+      6.Zigzag ✅
+      7.InPrePost in One ✅
+
+2.CountRecursion-  
+      1.height/depth ✅
+      2.max width ✅
+(application of height wala code o(n^2) se o(n)) - 
+      3.diameter ✅
+      4.height balanced ✅
+      5.max path sum ✅
+
+3.Path- 
+      1.root to node path ✅      (basic recursive Traversal)
+      
+4.Views- 
+      1.bottom view ✅
+      2.top ✅
+      2.right ✅
+      4.left views ✅
+
+11.Symmetry - 
+      1.check symmetry in 2 BT ✅ (basic recursive Traversal)
+      2.two trees are same ✅     (basic recursive Traversal)
+
+5.LCA of binary tree ✅          (basic recursive Traversal)  
+
+6.ChildrenSum property ✅         (basic recursive Traversal)
+
+7.BackEdge - 
+      1. Min time to burn a tree ✅
+      2. Print all nodes at distance of k from a node ✅
+           
+8.ConstructUniqueTree-
+      1.pre and In ✅
+      2.post and In ✅
+
+9.SerializeDeserialize-
+      1.Serialize ✅
+      2.Deserialize ✅
+      
+10.FlattenBinaryTree to linked list ✅
+
+12.Cnt total nodes in complete binary tree (in (logn)^2 time complexity) ✅
+   (height fxn log n ka h and cntnodes me observation ki log n me hi kaam ho jayega)
+          
+  
+
+              
+

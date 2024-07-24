@@ -1,0 +1,14 @@
+Ageing (Context of Scheduling):
+. Technique to prevent starvation and ensure fairness among processes.
+. Increases the priority of long-waiting processes gradually.
+. Helps prioritize waiting processes and prevents indefinite starvation.
+
+Starvation (Context of Scheduling):
+. Occurs when a process is unable to execute due to resource unavailability.
+. Can happen when higher-priority processes continuously monopolize resources.***
+. Can lead to poor system performance and unfair resource distribution.
+
+Deadlock (Context of Scheduling):
+. A state where multiple processes are stuck in a cyclic dependency for resources.
+. Each process is waiting for a resource held by another process in the deadlock group.
+. Can cause a system freeze, and deadlock detection and prevention mechanisms are used to address it.

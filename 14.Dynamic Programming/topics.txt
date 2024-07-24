@@ -1,0 +1,80 @@
+1.1-Dimensional DP -
+        1.Fibbonaci Series / Climbing stairs ✅
+        2.Frog Jump With K Distances ✅
+        3.Max Sum of Non Adjacents / House Robbers ✅
+        4.House Robber - II ✅
+
+2.2-Dimensional and 3-Dimensional DP -
+    1.Ninja- 1.Ninja's Training ✅
+             2.Ninja and his Friends(3-D DP) 
+
+    2.Grid Unique Paths- 1.Total Count of Paths (0,0)->(n-1,m-1) ✅
+                         2.Total Count of Paths With Obstacles ✅
+
+    2.3 Path Sum ->
+        1.Min Path Sum in Grid (0,0)->(n-1,m-1) ✅
+        2.Min Path Sum in Triangular Grid ✅
+        3.Min/Max Falling Path Sum (variable start variable end) ✅
+
+    2.4 0/1 Knapsack (Pick/Not Pick) ->
+        1.0/1 Knapsack ✅
+        2.Subset Sum Equal to K ✅
+        3.Count of Subsets With Sum = K ✅
+        4.Can Partition in 2 Subsets S1,S2  so (S1 = S2)  ✅
+        5.Can Partition in 2 Subsets S1,S2  so abs(S1 - S2) = minimum (only +ve)  ✅
+        6.Leetcode version with -ve's (Meet in the Middle theorem not dp becoz -ve numbers in dp table nhi hoga na) ❌
+        7.Count Partition in 2 Subsets S1,S2  so abs(S1 - S2) = k  ✅
+                    
+    2.5 Unbounded Knapsack -> (Infinite Times Can Pick an Element)
+        1.Unbounded Knapsack  ✅
+        2.Coin change - I (ek denomination ka kitna v leke minimum cnt of coins) ✅ 
+        3.Coin change - II (count of ways) ✅
+        4.Target Sum (kitna v plus minus laga skte string banake) ✅ = 6 of 2.4
+        5.Rod Cutting Problem (ek size ka many cuts)
+
+3.DP on Strings - 
+        1.Longest Common Substring ✅
+        2.Longest Common Subsequence (LCS) and print LCS ✅
+        3.Shortest Common SuperSequence (SCS) and print SCS ✅
+        4.Palindrome - 1.Longest Palindrome Subsequence (LPS) ✅
+        5.Conversion - 1.Minimum no. of Insertions in a string to make it Palindrome ✅
+(dlt from both a and b)2.Minimum no. of Insertions/Deletions in a string A to make it string B✅
+                       3.Minimum no. of Insertions/Deletions/Replacement in a string A to make it string B(Edit Distance)✅
+        6.How Many Times string B appears as a Subsequence in string A(Distinct Subsequence)✅
+        7.WildCard Matching - (match A and B with use of WildCards '*'(any Subsequence) and '?'(single character))✅
+        
+4.DP on Stocks - 
+(Note: You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again)).
+
+        1.Buy and Sell Stock - I (Single Transaction) ✅
+        2.Buy and Sell Stock - II (Infinite Transactions) ✅
+        3.Buy and Sell Stock - III (AtMost 2 Transactions) ✅(3d)
+        4.Buy and Sell Stock - IV  (AtMost K Transactions) ✅(3d)
+        5.Buy and Sell Stock With CoolDown ✅
+          (Infinite Transactions) (After you sell your stock, you cannot buy stock on the next day (i.e., cooldown one day))
+        6.Buy and Sell Stock With TransactionFees ✅
+          (Infinite Transactions) (but you need to pay the transaction fee for each transaction.)
+
+5.Longest Increasing Subsequence - 
+        1.LIS and print LIS ✅
+        2.LIS length only (using Binary Search) ✅
+        3.Count all LIS ✅
+        4.Use of LIS- 1.Longest Divisible Subset ✅
+                      2.Longest String Chain ✅
+                      3.Longest Bitonic Sequence ✅
+
+6.DP on Partitions - (LAST)
+        1.MCM Recursive
+        2.MCM Bottom-UP
+        3.Minimum Cost to Cut Sticks
+        4.Burst Ballons
+
+7.DP on Squares -
+        1.Max Reactangle Area with All 1'sell
+        2.Count Square SubMatrix with All Ones
+
+
+
+
+                
+

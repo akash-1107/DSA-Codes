@@ -1,0 +1,76 @@
+1.Virtualization vs Docker
+
+Virtualization (Virtual Machine):
+Creates separate virtual machines with their own OS, suitable for running multiple different OSes on a single server, but it incurs more resource overhead.
+Containerization (Docker):
+Uses lightweight containers that share the host OS kernel, making them efficient, fast to start, and ideal for deploying applications consistently and portably.
+
+2.
+program : is a static collection of code and data, stored on disk.
+  process : is a dynamic, active instance of a program, running in memory with its own resources.
+
+3.
+Definition:  (process vs thread)
+Process: A process is an independent and self-contained unit of execution in an operating system. It is a program in execution, comprising its own memory space, file descriptors, and system resources. Processes are isolated from each other, and each process has its own address space.
+1.system call involved(child (copy) of parent)
+2.Os treats diff process different
+3.Each process comprising its own memory space, file descriptors, and system resources
+4.context Switching is difficult
+5.Independent (blocking 1 not block other)
+
+Thread: A thread, on the other hand, is the smallest unit of execution within a process. Threads share the same memory space and resources of the parent process, allowing multiple threads within a process to work concurrently.
+
+1.NO system call involved(child (copy) of parent)
+2.All user level threads treated as single task for OS
+3.Threads share the same memory space and resources of the parent process (stack and register alag hoga bss)
+4.context Switching is faster
+5.Not Independent (blocking 1 block other)
+
+4.
+ 1.User Level Thread -  (thread)
+   1.managed by user level library
+   2.typically fast
+   3.context switch is faster
+   4.1 block all block
+  
+ 2.Kernel Level Thread - (process)
+   1.managed by OS system calls
+   2.typically slower
+   3.context switch is slower
+   4.1 block not all block
+
+C.S = process > KLT > ULT
+
+5.
+basically - appication use krte waqt = user mode and kch v want from request kernel mode assistance via system calls.
+
+User mode is the restricted privilege level for most applications.
+Kernel mode is the higher privilege level for critical system tasks.
+User mode has limited access to system resources and hardware.
+Kernel mode provides full access to system resources and privileged instructions.
+Mode switching allows user mode applications to request kernel mode assistance via system calls.
+
+
+6.
+Multi-threading: (thread)  (concurrent execution of threads within a process).
+Multi-threading is a programming and execution model where multiple threads exist within the same process.
+Threads are lightweight and share the same memory space, allowing them to communicate and share data more efficiently.
+Threads run concurrently within a single application, providing improved responsiveness and enabling tasks to be executed in parallel.
+
+
+Multi-processing: (process)  (concurrent execution of threads within a process).
+Multi-processing refers to the execution of multiple processes simultaneously.
+Each process has its own memory space and runs independently of others.
+Multi-processing is suitable for systems with multiple CPUs or cores, where each core can execute a separate process, making it more efficient for tasks that can be truly parallelized.
+
+
+Multiprogramming: (switching between processes)
+Multiprogramming is an operating system feature that allows multiple programs (or processes) to be in memory simultaneously.
+While only one process is executed at a time, the operating system quickly switches between processes, giving the illusion of concurrent execution.
+Multiprogramming improves CPU utilization and keeps the CPU busy (while waiting for I/O operations to complete).
+
+
+Multi-tasking:
+Multi-tasking is a broad term that refers to the ability of an operating system to run multiple tasks or processes concurrently.
+It includes both multiprogramming (switching between processes) and multi-threading (concurrent execution of threads within a process).
+Multi-tasking enables users to work with multiple applications simultaneously, switching between them seamlessly

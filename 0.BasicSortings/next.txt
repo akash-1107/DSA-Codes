@@ -1,0 +1,23 @@
+0.Time - 6 Months (Sufficient For Full Transformation)
+
+1.DSA - 1.DP (almost done)
+        2.Strings (almost done)
+        3.Stack and Queue (almost done)
+        4.Bit Manipulation
+        5.Number Theory
+        6.Tries
+
+2.Developement More - 1.Improve FoodXpress App or look for some better projects
+                      2.Deep dive into front and backend like jwt and brypt node api
+
+3.Machine Learning and Project - 1.SuperVised learning only
+                                 2.Brain Stroke Project
+
+4.Company Related Stuff - 1.Angular
+                          2.SpringBoot
+
+5.Fundamental Subjects - 1.DBMS
+                         2.OOPS
+                         3.OS
+                         4.Computer Networks
+                         5.System Design

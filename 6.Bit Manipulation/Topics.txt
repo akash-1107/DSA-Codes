@@ -1,0 +1,15 @@
+1.Basics - 
+  1.ith bit set or not
+  2.odd/even
+  3.power of 2
+  4.cnt number of set bits
+  5.Set/Unset Rightmost unset bit
+  6.Swap two numbers
+  7.Divide without using division
+
+2.Advanced - 
+  1.convert A to B (by bits flipping)
+  2.Number that Appears odd number of Times
+  3.Power set(for n<10)
+  4.Xor From L to R (spiral copy)
+  5.Two Numbers appearing odd number of times

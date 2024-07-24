@@ -1,0 +1,17 @@
+1.Pow(x,n) 
+
+2.Generate Paranthesis
+
+3.Print all Subsequence / Power Set
+
+4.Sort a Stack Using Recursion
+ 
+5.Count Good Numbers
+
+6.Sum - 
+  1.Combination Sum - I
+  2.Combination Sum - II
+  3.Subset Sum - I
+  4.Subset Sum - II
+
+7.Letter Combination of a Phone Number

@@ -1,0 +1,5 @@
+1.What is OOPS ?
+OOPs, in the context of programming, stands for "Object-Oriented Programming." It is a programming paradigm that organizes code and data into reusable structures called "objects."
+
+2.Class
+ A class defines the structure and behavior of objects that belong to that class.

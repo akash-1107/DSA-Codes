@@ -1,0 +1,32 @@
+1.Sort Both Arrays -
+      1.Assign Cookies ✅T.C = O(N*LOGN) , S.C = O(1)
+      2.Min Platforms Needed for Trains ✅T.C = O(N*LOGN) , S.C = O(1)
+
+2.Sort A/Q to Any Particular Value - 
+      1.Fractional Knapsack (sort A/Q to per kg value) ✅T.C = O(N*LOGN) , S.C = O(1)
+      2.N meetings in a Room (sort a/q to endtime)  ✅T.C = O(N*LOGN) , S.C = O(N)
+      3.Job Sequencing (Sort A/Q to Profit Value of Job) ✅T.C =  O(N *maxDeadline) , S.C = O(maxDeadline)
+      
+3.Greedy Version Of Min Coins -  (only valid when )
+      1.Min Coins to Get Sum ✅T.C = O(N) , S.C = O(1)
+      2.Lemonade Change ✅T.C = O(N) , S.C = O(1)
+
+4.Parenthesis Checker - 
+      1.Parenthesis Check with * ✅T.C = O(N) , S.C = O(N)
+      2.Iska baki sara variety cover in string and stack
+
+5.Jump Game - 
+      1.Jump Game 1 (reach , maxreach) ✅T.C = O(N) , S.C = O(1)
+      2.Jump Game 2 (reach , maxreach , curEnd) ✅T.C = O(N) , S.C = O(1)
+
+6.Intervals -
+      1.Merge Intervals (normal wala)
+      2.Insert Intervals ✅T.C = O(NLOGN) , S.C = O(N^2)
+      3.Remove Intervals  ✅T.C = O(NLOGN) , S.C = O(1)
+
+7.Candy Problem (check both neighbours ek baar left ek baar right) ✅T.C = O(N) , S.C = O(N)
+
+8.SJF CPU-Scheduling (Non Preemptive based on Burst Time) ❌
+
+    
+

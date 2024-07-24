@@ -1,0 +1,21 @@
+#NON-PREEMPTIVE-
+1.FCFS (non-Preemptive) [First Come First Serve] -
+Based on Arrival Time
+
+2.SJF (Shortest Job Next)(non-preemptive)
+SJF is a non-preemptive scheduling algorithm that selects the process with the shortest burst time next.
+
+#PRE-EMPTIVE-
+3.LRTF (Longest Remaining Time First): (pre)
+LRTF is a preemptive version of SJF, where the process with the longest remaining burst time is selected to execute. If a new process arrives with a longer burst time, the currently running process is preempted.
+
+4.SRTF (Longest Remaining Time First): (pre)
+SRTF is a preemptive version of SJF, where the process with the Shortestest remaining burst time is selected to execute. If a new process arrives with a SHORTER burst time, the currently running process is preempted.
+
+5.Round Robin is a preemptive scheduling algorithm where each process gets a fixed time slice or quantum to execute. If a process does not complete within the time slice, it is moved back to the ready queue, and the next process is selected.
+(isme ready queue and running queue maintain krke chalenge)
+(Hm pehle jo process aa rha usko ready queue me push phir check ki running wale ko hatana h yaa nhi agr haa toh sara aane wala ke baad push in ready queue)
+
+6.Priority Scheduling (both possible)
+Priority Scheduling assigns a priority value to each process, and the process with the highest priority is selected for execution. In the preemptive version, the running process can be preempted if a higher-priority process arrives. In the non-preemptive version, the running process continues until it completes.
+(ek extra column of Priority)

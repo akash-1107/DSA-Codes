@@ -1,0 +1,14 @@
+1.Pow(x,n)
+
+2.Prime Factors of a Number
+
+3.All Divisors of a Number (All Possible Divisors)
+
+4.Sieve of Eratosthenes - (can find count of primes)
+
+Time Complexity
+O(Nlog(log(N)))
+Space Complexity
+O(N), where ‘N’ is the given number.
+
+5.Prime Factorization of a Number using Sieve(prime numbers ka power ka multiplicaion me number ko represent)
