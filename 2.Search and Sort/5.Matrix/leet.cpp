@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-//row and col both wise sorted
+//Each row is sorted in non-decreasing order.
+The first integer of each row is greater than the last integer of the previous row
 //pura O(mn) eleemnts sorted
 class Solution {
 public:
