@@ -28,7 +28,7 @@ public:
 
 
 
-//
+//better solution 
 
 		if(nums.length == 1) return 0; // single element
         
