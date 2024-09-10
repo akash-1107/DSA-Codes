@@ -5,6 +5,8 @@ using namespace std;
 // Output: "LVIII"
 // Explanation: L = 50, V = 5, III = 3.
 
+//The largest number that can be represented in Roman numerals is 3,999, or MMMCMXCIX
+
 class Solution {
 public:
     // M-1
